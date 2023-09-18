@@ -71,6 +71,7 @@
                         <Export-Package>
                             org.jboss.classfilewriter.*;version=${project.version}
                         </Export-Package>
+                        <Import-Package>!java.*,*</Import-Package>
                     </instructions>
                 </configuration>
                 <executions>
